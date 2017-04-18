@@ -1,1 +1,40 @@
-{     "devDependencies": {         "hyperterm-material": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-hyperterm-material",     "homepage": "https://github.com/npmtest/node-npmtest-hyperterm-material",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-hyperterm-material.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [hyperterm-material (v0.1.8)](https://github.com/dperrera/hyperterm-material#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperterm-material.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperterm-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperterm-material.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperterm-material)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "hyperterm-material": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-hyperterm-material",
+    "keywords": [
+        "coverage",
+        "test",
+        "hyperterm-material"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_hyperterm_material.js",
+    "name": "npmtest-hyperterm-material",
+    "nameAlias": "npmtest_hyperterm_material",
+    "nameOriginal": "npmtest-hyperterm-material",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-hyperterm-material.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
