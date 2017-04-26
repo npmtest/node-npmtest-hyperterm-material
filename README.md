@@ -1,6 +1,6 @@
 # npmtest-hyperterm-material
 
-#### test coverage for  [hyperterm-material (v0.1.8)](https://github.com/dperrera/hyperterm-material#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperterm-material.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperterm-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperterm-material.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperterm-material)
+#### basic test coverage for  [hyperterm-material (v0.1.8)](https://github.com/dperrera/hyperterm-material#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperterm-material.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperterm-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperterm-material.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperterm-material)
 
 #### A material inspired theme for Hyper.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hyperterm-material/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hyperterm-material/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hyperterm-material/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hyperterm-material/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperterm-material/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperterm-material/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hyperterm-material/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hyperterm-material/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperterm-material/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperterm-material/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hyperterm-material/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hyperterm-material/build/coverage.html/index.html)
 
@@ -70,7 +70,8 @@
         "url": "git+https://github.com/dperrera/hyperterm-material.git"
     },
     "scripts": {},
-    "version": "0.1.8"
+    "version": "0.1.8",
+    "bin": {}
 }
 ```
 
